@@ -4,7 +4,7 @@ This project was to create a celestial bodies database containing information on
 
 | File | Description |
 | ---- | ----------- |
-| [universe.sql](universe.sql) | PostgreSQL database dump after creating the database and adding data to it |
+| [universe.sql](universe.sql) | PostgreSQL database dump after creating the universe database and adding data to it |
 
 ## Instructions
 
