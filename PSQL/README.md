@@ -1,6 +1,6 @@
 # PostgreSQL
 ## Guided Lessons
-- ### [Student Database](Sudent%20Database)
+- ### [Student Database](Student%20Database)
 
 - ### [Bike Rental Database](Bike%20Rental%20Database)
 
