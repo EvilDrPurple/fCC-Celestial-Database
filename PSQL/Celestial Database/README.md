@@ -1,6 +1,6 @@
 # Celestial Database
 
-
+This project was to create a celestial bodies database containing information on various moons, planets, stars, and galaxies.
 
 | File | Description |
 | ---- | ----------- |
