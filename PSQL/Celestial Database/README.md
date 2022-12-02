@@ -19,6 +19,8 @@ If you leave your virtual machine, your database may not be saved. You can make 
 
 If you are saving your progress on [freeCodeCamp.org](freecodecamp.org), after getting all the tests to pass, follow the instructions above to save a dump of your database. Save the universe.sql file in a public repository and submit the URL to it on [freeCodeCamp.org](freecodecamp.org).
 
+---
+
 Complete the tasks below
 
 - [x] You should create a database named `universe`
