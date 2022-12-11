@@ -26,7 +26,7 @@ Lastly, you need to make a script that accepts an argument in the form of an `at
 
 Notes:
 
-If you leave your virtual machine, your database may not be saved. You can make a dump of it by entering `pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql` in a bash terminal (not the psql one). It will save the commands to rebuild your database in `periodic_table.sql`. The file will be located where the command was entered. If it's anything inside the project folder, the file will be saved in the VM. You can rebuild the database by entering `psql -U postgres < periodic_table.sql` in a terminal where the `.sql` file is.
+If you leave your virtual machine, your database may not be saved. You can make a dump of it by entering `pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql` in a bash terminal (not the psql one). It will save the commands to rebuild your database in `periodic_table.sql`. The file will be located where the command was entered. If it's anything inside the `project` folder, the file will be saved in the VM. You can rebuild the database by entering `psql -U postgres < periodic_table.sql` in a terminal where the `.sql` file is.
 
 If you are saving your progress on [freeCodeCamp.org](freeCodeCamp.org), after getting all the tests to pass, follow the instructions above to save a dump of your database. Save the `periodic_table.sql` file, as well as the final version of your `element.sh` file, in a public repository and submit the URL to it on [freeCodeCamp.org](freeCodeCamp.org).
 
@@ -64,7 +64,7 @@ Complete the tasks below
 
 - [x] You should add the element with atomic number `10` to your database. Its name is `Neon`, symbol is `Ne`, mass is `20.18`, melting point is `-248.6`, boiling point is `-246.1`, and it's a `nonmetal`
 
-- [x] You should create a `periodic_table` folder in the `project folder` and turn it into a `git` repository with `git init`
+- [x] You should create a `periodic_table` folder in the `project` folder and turn it into a `git` repository with `git init`
 
 - [x] Your repository should have a `main` branch with all your commits
 
