@@ -11,6 +11,6 @@
 
 - ### [Salon Appointment Scheduler](Salon%20Appointment%20Database)
 
-- ### [Periodic Table Database](Periodic%20Table%20Database)
+- ### [Periodic Table Database](periodic_table)
 
 - ### [Number Guessing Game](number_guessing_game)
