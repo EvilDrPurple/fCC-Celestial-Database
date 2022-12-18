@@ -4,7 +4,7 @@ PSQL="psql --username=freecodecamp --dbname=salon --tuples-only -c"
 
 echo -e "\n~~~~~ MY SALON ~~~~~\n"
 
-# print service names
+# print service names and IDs
 PRINT_MENU() {
   if [[ $1 ]]
   then
