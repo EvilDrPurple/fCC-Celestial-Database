@@ -1,3 +1,14 @@
+/**
+ * @file Contains a function that will decode a ROT13 cipher, where the values of the letters are shifted by 13 places.
+ * @author Kylie Scott
+ */
+
+/**
+ * Decodes a ROT13 encoded string
+ * 
+ * @param {string} str ROT13 encoded string
+ * @returns {string} Decoded string
+ */
 function rot13(str) {
   str = str.split('');
   str = str.map(function(letter) {
@@ -10,7 +21,7 @@ function rot13(str) {
     const diff = 90 - charCode;
     
     // if difference is less than the shift
-    if (diff < 13) {
+    if (diff < shift) {
       // shift char code to the beginning
       shift -= diff;
       charCode = 64;
@@ -24,4 +35,4 @@ function rot13(str) {
   return str;
 }
 
-rot13("SERR PBQR PNZC");
+console.log(rot13("SERR PBQR PNZC"));
