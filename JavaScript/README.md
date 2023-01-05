@@ -7,3 +7,4 @@ You can view my certificate [Here](https://www.freecodecamp.org/certification/ev
 | File | Instructions | Description |
 | ---- | ------------ | ----------- |
 | [caesers-cipher.js](caesers-cipher.js) | [Caesers Cipher](Instructions.md#caesers-cipher) | Decodes ROT13 cipher |
+| [palindrome.js](palindrome.js) | [Palindrome Checker](Instructions.md#palindrome-checker) | Checks if palindrome |
