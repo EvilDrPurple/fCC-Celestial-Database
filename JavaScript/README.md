@@ -8,3 +8,4 @@ You can view my certificate [Here](https://www.freecodecamp.org/certification/ev
 | ---- | ------------ | ----------- |
 | [caesers-cipher.js](caesers-cipher.js) | [Caesers Cipher](Instructions.md#caesers-cipher) | Decodes ROT13 cipher |
 | [palindrome.js](palindrome.js) | [Palindrome Checker](Instructions.md#palindrome-checker) | Checks if palindrome |
+| [phone-validator.js](phone-validator.js) | [Telephone Number Validator](Instructions.md#telephone-number-validator) | Checks if valid phone number |
