@@ -17,7 +17,7 @@ function rot13(str) {
 
     let charCode = letter.charCodeAt(0);
     let shift = 13;
-    // difference between last char code and current char code
+    /** Difference between last char code and the current char code */
     const diff = 90 - charCode;
     
     // if difference is less than the shift

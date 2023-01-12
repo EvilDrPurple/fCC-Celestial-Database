@@ -11,7 +11,7 @@
  * @returns {boolean} True if the phone number is valid
  */
 function telephoneCheck(str) {
-  // regex to check if phone number is valid
+  /** Regex to check if phone number is valid */
   const regex = /^1? ?\(\d{3}\) ?\d{3}[- ]?\d{4}$|^1? ?\d{3}[- ]?\d{3}[- ]?\d{4}$/
 
   return regex.test(str);
