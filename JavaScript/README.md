@@ -10,3 +10,4 @@ You can view my certificate [Here](https://www.freecodecamp.org/certification/ev
 | [palindrome.js](palindrome.js) | [Palindrome Checker](Instructions.md#palindrome-checker) | Checks if palindrome |
 | [phone-validator.js](phone-validator.js) | [Telephone Number Validator](Instructions.md#telephone-number-validator) | Checks if a phone number is valid |
 | [register.js](register.js) | [Cash Register](Instructions.md#cash-register) | Cash register drawer |
+| [roman-numerals.js](roman-numerals.js) | [Roman Numeral Converter](Instructions#roman-numeral-converter) | Roman numeral converter |
