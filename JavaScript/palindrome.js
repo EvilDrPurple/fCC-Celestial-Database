@@ -10,13 +10,12 @@
  * @returns {boolean} True if the string is a palindrome
  */
 function palindrome(str) {
-  // remove whitespace, symbols
-  str = str.replace(/\W|\s|_/g, "");
-  str = str.toUpperCase();
+  removeWhitespaceAndSymbols = str.replace(/\W|\s|_/g, "");
+  upperCaseStr = removeWhitespaceAndSymbols.toUpperCase();
 
-  const reverseStr = str.split("").reverse().join("");
+  const reverseStr = upperCaseStr.split("").reverse().join("");
 
-  return str == reverseStr;
+  return upperCaseStr == reverseStr;
 }
 
 console.log(palindrome("eye"));
